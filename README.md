@@ -6,7 +6,7 @@ Official Homebrew tap for [Caereforge](https://caereforge.com) macOS application
 
 ### Tempo
 
-Native macOS event hub that aggregates events from every source — calendar, tasks, alerts, webhooks — into a single chronological timeline. Quiet by default, powerful by design. Built for homelab operators, sysadmins, and Mac power users.
+A native macOS event hub. Aggregates signals from your homelab — Kopia, UniFi, Home Assistant, Uptime Kuma, Proxmox, GitHub Actions, custom webhooks — alongside Apple Calendar and Reminders, into a single chronological timeline. Quiet by default, powerful by design. Built for homelab operators, sysadmins, and Mac power users.
 
 → [tempoapp.app](https://tempoapp.app)
 
