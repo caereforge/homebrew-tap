@@ -1,5 +1,5 @@
 cask "tempo" do
-  disable! date: "2026-05-11", because: "Tempo is launching soon. Subscribe at tempoapp.app to be notified of availability."
+  disable! date: "2026-05-11", because: "is pending its official launch — visit tempoapp.app to subscribe for launch notification"
 
   version "0.2.6,12"
   sha256 "6a5a7a1a1c6be35a24da618a0c96502dd29897c0154c73f0f746561c45ea3588"
