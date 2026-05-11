@@ -6,7 +6,7 @@ cask "tempo" do
 
   url "https://downloads.tempoapp.app/Tempo-#{version.csv.first}.dmg"
   name "Tempo"
-  desc "Event hub for homelab signals, monitoring alerts, webhooks, and Apple Calendar"
+  desc "One Mac timeline for everything your stack does"
   homepage "https://tempoapp.app"
 
   livecheck do

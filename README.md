@@ -6,7 +6,7 @@ Official Homebrew tap for [Caereforge](https://caereforge.com) macOS application
 
 ### Tempo
 
-A native macOS event hub. Aggregates signals from your homelab — Kopia, UniFi, Home Assistant, Uptime Kuma, Proxmox, GitHub Actions, custom webhooks — alongside Apple Calendar and Reminders, into a single chronological timeline. Quiet by default, powerful by design. Built for homelab operators, sysadmins, and Mac power users.
+A Mac-native event hub. One Mac-native timeline for everything your stack does — from rack-side monitoring to Mac-side automations, from third-party services to your own scripts. If it can POST, Tempo can hear it. Every event arrives in context, with the next move one click away. You stay the conductor; Tempo holds the score — and never acts on its own. Local-first, no cloud, no telemetry. Built for homelab operators, sysadmins, and Mac power users.
 
 → [tempoapp.app](https://tempoapp.app)
 
