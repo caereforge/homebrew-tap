@@ -1,6 +1,6 @@
 cask "tempo" do
-  version "0.3.1,18"
-  sha256 "fe9f3ec1783912da9cafb8fd53dc4db9c6876153396393ebd8f51a44845dd0e5"
+  version "1.0.0,19"
+  sha256 "cf4ba0fd858f912ffb2f339ef52c1002e42c8dc6a21defee2e63f96d1fa3fe40"
 
   url "https://downloads.tempoapp.app/Tempo-#{version.csv.first}.dmg"
   name "Tempo"
