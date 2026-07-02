@@ -12,7 +12,11 @@ cask "tempo" do
     strategy :sparkle
   end
 
-  auto_updates true
+  # No auto_updates: Homebrew is the single update channel for cask installs.
+  # The app detects a Homebrew install (Caskroom receipt) and stands Sparkle
+  # down, so `brew upgrade` owns updates here — no self-updating behind brew's
+  # back. Site-download installs keep Sparkle. Bump version + sha256 each
+  # release so `brew upgrade` sees the new build.
   depends_on macos: ">= :sequoia"
 
   app "Tempo.app"
