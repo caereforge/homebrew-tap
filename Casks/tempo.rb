@@ -5,7 +5,7 @@ cask "tempo" do
   url "https://downloads.tempoapp.app/Tempo-#{version.csv.first}.dmg"
   name "Tempo"
   desc "One Mac timeline for everything your stack does"
-  homepage "https://tempoapp.app"
+  homepage "https://tempoapp.app/"
 
   livecheck do
     url "https://downloads.tempoapp.app/appcast.xml"
@@ -17,7 +17,7 @@ cask "tempo" do
   # down, so `brew upgrade` owns updates here — no self-updating behind brew's
   # back. Site-download installs keep Sparkle. Bump version + sha256 each
   # release so `brew upgrade` sees the new build.
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "Tempo.app"
 
